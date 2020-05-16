@@ -1,0 +1,23 @@
+MOV R0, 10
+MOV x, R0
+MOV RS1, x
+CASE_0:
+MOV RS2, 1.000000
+CMPE RS1, RS2
+JNZ CASE_1
+MOV R0, 10
+MOV R1, x
+ADD R0, R1
+MOV R1, 10
+DIV R0, R1
+MOV p, R0
+JMP CASE_DEFAULT
+CASE_1:
+CASE_DEFAULT:
+MOV R0, 10
+MOV y, R0
+int , x, 10.000000, (null) 
+int , p, 2.000000, (null) 
+int , y, 10.000000, (null) 
+
+ '' 
